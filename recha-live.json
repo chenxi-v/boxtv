@@ -66,27 +66,23 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "曉峰直播",
-      "url": "./live/fong.txt",
-      "ua": "okhttp/3.15",
-      "timeout": 5,
-      "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/taipei",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "name": "229酒店源",
+      "type": 0,
+      "url": "./live/229.txt",
+      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
+      "logo": "https://epg.112114.eu.org/logo/{name}.png",
+      "playerType": 2,
       "pass": true
-    },
+    },    
     {
       "name": "IPTV(Judy)",
       "url": "https://iptv.mydiver.eu.org/get.php?username=tg_t1e41beu&password=msnn2118k6g7&type=m3u_plus",
       "ua": "xieanqishiwoerzi/0.0.1"
     },
     {
-      "name": "4GTV(Migu)",
+      "name": "4GTV(Migu)故障",
       "url": "./live/migu.m3u",
       "ua": "xieanqishiwoerzi/0.0.1"
-    },    
-    {
-      "name": "4GTV(謝安琪)",
-      "url": "./live/4gtv-anche.txt"
     },    
     {
       "name": "4GTV(ROB)",
@@ -94,13 +90,6 @@
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
       "pass": true
-    },
-    {
-      "name": "艾米",
-      "type": 0,
-      "url": "./live/艾米.txt",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.112114.eu.org/logo/{name}.png"
     },
     {
       "name": "寶盒",
@@ -126,15 +115,6 @@
       "pass": true
     },
     {
-      "name": "歐華167",
-      "url": "./live/167.txt",
-      "ua": "okhttp/3.15",
-      "timeout": 5,
-      "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/taipei",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "pass": true
-    },
-    {
       "name": "Free TV",
       "url": "https://freeman.neocities.org/520free@tv.txt",
       "ua": "okhttp/3.15",
@@ -151,7 +131,14 @@
       }
     },
     {
-      "name": "live 4 play",
+      "name": "艾米(卡頓)",
+      "type": 0,
+      "url": "./live/艾米.txt",
+      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
+      "logo": "https://epg.112114.eu.org/logo/{name}.png"
+    },    
+    {
+      "name": "live 4 play(台灣頻道故障)",
       "url": "./live/175.txt",
       "ua": "okhttp/3.15",
       "timeout": 5,
@@ -180,21 +167,13 @@
       "pass": true
     },
     {
-      "name": "173線路",
+      "name": "175線路(台灣頻道故障)",
       "type": 0,
       "url": "./live/173.txt",
       "ua": "okhttp/3.15",
       "epg": "http://iptv.52sw.top:668/?ch={name}&date={date}",
       "pass": true
-    },
-    {
-      "name": "歐飛(ofiii TV)",
-      "type": 0,
-      "url": "./live/ofiii.m3u",
-      "ua": "okhttp/3.15",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "pass": true
-    },
+    },    
     {
       "name": "BeeSport直播(python)",
       "type": 3,
@@ -202,38 +181,11 @@
       "header": { "Referer": "https://p.m82xg4z0cdbz7.com/" }
     },
     {
-      "name": "刺蝟直播",
-      "playerType": 2,
-      "url": "http://iptv.herissmon.dpdns.org/jiekou/live.txt",
-      "ua": "Herissmon/2016",
-      "timeout": 5,
-      "pass": true
-    },
-    {
       "name"  : "榴芒"                     ,
       "url": "./live/free.txt",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
-    {
-      "name"  : "晴天"                     ,
-      "url": "http://ys.my.to//i/?T=晴天",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name"  : "晴天(P2P)"                     ,
-      "url": "http://8.138.7.223/p2p.php",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-
-    {
-      "name"  : "雨天"                     ,
-      "url": "https://files.catbox.moe/nwvfmh.txt",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },    
     {
       "name": "安博台",
       "ua": "AptvPlayer/1.3.3",
@@ -358,7 +310,50 @@
       "url": "./live/11.txt",
       "ua": "okhttp/4.12",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei"
-    }
+    },
+    {
+      "name": "歐飛(故障)",
+      "type": 0,
+      "url": "./live/ofiii.m3u",
+      "ua": "okhttp/3.15",
+      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "pass": true
+    },
+    {
+      "name": "曉峰直播(故障)",
+      "url": "./live/fong.txt",
+      "ua": "okhttp/3.15",
+      "timeout": 5,
+      "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/taipei",
+      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "pass": true
+    },    
+    {
+      "name": "刺蝟直播(故障)",
+      "playerType": 2,
+      "url": "http://iptv.herissmon.dpdns.org/jiekou/live.txt",
+      "ua": "Herissmon/2016",
+      "timeout": 5,
+      "pass": true
+    },    
+    {
+      "name"  : "晴天(故障)",
+      "url": "http://ys.my.to//i/?T=晴天",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name"  : "晴天P2P(故障)",
+      "url": "http://8.138.7.223/p2p.php",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name"  : "雨天(故障)",
+      "url": "https://files.catbox.moe/nwvfmh.txt",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    }    
   ],
   "parses": [
     {
