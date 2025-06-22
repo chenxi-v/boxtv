@@ -22,16 +22,23 @@
 
 
 台湾频道_1818,#genre#
-松1,http://ali.hlspull.yximgs.com:80/live/c71885f5a6b7ac11130fd9373a3a63d4.flv
-松3,http://ali.hlspull.yximgs.com:80/live/aeddb51000264ddb31c31857a59b4aa1.flv
-潘朵拉,http://ali.hlspull.yximgs.com:80/live/17a80b1d82886ec94058d087e01e9232.flv
-彩虹电影,http://ali.hlspull.yximgs.com:80/live/29da97373c682cfe7543b56b4af69f72.flv
-k频道,http://ali.hlspull.yximgs.com:80/live/2cbddd5fba2369199661adb81a3b8079.flv
-e频道,http://ali.hlspull.yximgs.com:80/live/b0f527dc6600fa6f7d1d555bcdbd2762.flv
-happy,http://ali.hlspull.yximgs.com:80/live/c49bb80dd8fa1b2f5bed5c01c2a2d288.flv
-香蕉,http://ali.hlspull.yximgs.com:80/live/5f9475d108a8dc2a4c6f3645b54363bc.flv
-惊艳,http://ali.hlspull.yximgs.com:80/live/8380a44e9972f6ba846596ad36d48ca2.flv
-极限,http://ali.hlspull.yximgs.com:80/live/787cec4f8bc06f65a62d74be12c5d4f9.flv
+松視1臺,https://hls-gateway.vpstv.net/streams/709043.m3u8
+松視2台,https://hls-gateway.vpstv.net/streams/709044.m3u8
+松視3台,https://hls-gateway.vpstv.net/streams/709084.m3u8
+潘朵拉,https://hls-gateway.vpstv.net/streams/709042.m3u8
+彩虹K台,https://hls-gateway.vpstv.net/streams/709040.m3u8
+彩虹e臺,https://hls-gateway.vpstv.net/streams/709039.m3u8
+彩虹電影,https://hls-gateway.vpstv.net/streams/709038.m3u8
+HAPPY,https://hls-gateway.vpstv.net/streams/709091.m3u8
+极限,https://hls-gateway.vpstv.net/streams/709086.m3u8
+驚艷,https://hls-gateway.vpstv.net/streams/709041.m3u8
+完美台,https://hls-gateway.vpstv.net/streams/476375.m3u8
+Playboy,https://hls-gateway.vpstv.net/streams/476376.m3u8
+Dorcel ,https://hls-gateway.vpstv.net/streams/476377.m3u8
+HAPPY CHANNEL,https://hls-gateway.vpstv.net/streams/709085.m3u8
+erox,https://hls-gateway.vpstv.net/streams/644724.m3u8
+eroxxx,https://hls-gateway.vpstv.net/streams/644725.m3u8
+brazzers,https://hls-gateway.vpstv.net/streams/644730.m3u8
 
 
 
