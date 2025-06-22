@@ -11,45 +11,6 @@
       "pass": true
     },
     {
-      "name": "沐辰直播(MyTvSuper)",
-      "url": "https://json.doube.eu.org/Doubebly/MyTvSuper/",
-      "timeout": 5,
-      "pass": true
-    },
-    {
-      "name": "沐辰直播(smart)", 
-      "type": 3, 
-      "api":"https://json.doube.eu.org/python/live_smt.py",
-      "pass": true
-    },
-    {
-      "name": "smart(HFR1107)",
-      "url": "https://000.hfr1107.top/tv/smt.php",
-      "timeout": 5,
-      "pass": true
-    },
-    {
-      "name": "smart(cnlive)",
-      "url": "https://free.cnlive.club/smt.m3u",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "pass": true
-    },
-    {
-      "name": "smart(wanjiatv)",
-      "url": "./live/smart.txt",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "pass": true
-    },
-    {
-      "name": "smart(pendy)",
-      "url": "./live/smart-pendy.txt",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "pass": true
-    },
-    {
       "jar"   : "./jar/mqitv.jar"            ,
       "name"  : "59酒店源"                     ,
       "api"   : "csp_MQiTV"                  ,
@@ -64,26 +25,12 @@
       "ext"   : "https://60.248.127.232:4433",
       "epg": "http://iptv.52sw.top:668/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "229酒店源",
-      "type": 0,
-      "url": "./live/229.txt",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.112114.eu.org/logo/{name}.png",
-      "playerType": 2,
-      "pass": true
     },    
     {
       "name": "IPTV(Judy)",
       "url": "https://iptv.mydiver.eu.org/get.php?username=tg_t1e41beu&password=msnn2118k6g7&type=m3u_plus",
       "ua": "xieanqishiwoerzi/0.0.1"
     },
-    {
-      "name": "4GTV(Migu)故障",
-      "url": "./live/migu.m3u",
-      "ua": "xieanqishiwoerzi/0.0.1"
-    },    
     {
       "name": "4GTV(ROB)",
       "url": "./live/4gtv.txt",
@@ -131,6 +78,67 @@
       }
     },
     {
+      "name": "smart(cnlive)",
+      "url": "https://free.cnlive.club/smt.m3u",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
+      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "pass": true
+    },
+    {
+      "name": "smart(wanjiatv)",
+      "url": "./live/smart.txt",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
+      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "pass": true
+    },
+    {
+      "name": "smart(pendy)",
+      "url": "./live/smart-pendy.txt",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
+      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "pass": true
+    },
+    {
+      "name": "香蕉-Gather",
+      "url": "https://tv.iill.top/m3u/Gather",
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "pass": true
+    },    
+    {
+      "name": "229酒店源",
+      "type": 0,
+      "url": "./live/229.txt",
+      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
+      "logo": "https://epg.112114.eu.org/logo/{name}.png",
+      "playerType": 2,
+      "pass": true
+    },  
+    {
+      "name": "沐辰直播(MyTvSuper)",
+      "url": "https://json.doube.eu.org/Doubebly/MyTvSuper/",
+      "timeout": 5,
+      "pass": true
+    },
+    {
+      "name": "沐辰直播(smart)", 
+      "type": 3, 
+      "api":"https://json.doube.eu.org/python/live_smt.py",
+      "pass": true
+    },
+    {
+      "name": "smart(HFR1107)",
+      "url": "https://000.hfr1107.top/tv/smt.php",
+      "timeout": 5,
+      "pass": true
+    },  
+    {
+      "name": "4GTV(Migu)故障",
+      "url": "./live/migu.m3u",
+      "ua": "xieanqishiwoerzi/0.0.1"
+    },    
+    {
       "name": "艾米(卡頓)",
       "type": 0,
       "url": "./live/艾米.txt",
@@ -143,14 +151,6 @@
       "ua": "okhttp/3.15",
       "timeout": 5,
       "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/taipei",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "pass": true
-    },
-    {
-      "name": "香蕉-Gather",
-      "url": "https://tv.iill.top/m3u/Gather",
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
       "pass": true
     },
