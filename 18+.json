@@ -30,16 +30,6 @@
       }
     },
     {
-      "key": "py_rou",
-      "name": "⏭｜Rou(沐辰)｜PYTHON",
-      "type": 3,
-      "api": "./py/py_rou.py",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "changeable": 0
-    },
-    {
       "key": "小红书",
       "name": "💕🔞红薯",
       "type": 3,
